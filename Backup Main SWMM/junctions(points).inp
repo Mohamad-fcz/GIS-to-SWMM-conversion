@@ -1,0 +1,33 @@
+[TITLE]
+;;Project Title/Notes
+test_name
+
+[EVAPORATION]
+CONSTANT         0.0
+DRY_ONLY         NO
+
+[JUNCTIONS]
+J_1    3.0    2.0    0.0    0.0    10.0
+J_2    3.2    2.3    0.0    0.0    10.0
+J_3    1.5    1.0    0.0    100.0    0.0
+J_4    1.0    0.5    0.1    0.0    0.0
+
+[STORAGE]
+
+[CONDUITS]
+
+[REPORT]
+SUBCATCHMENTS ALL
+NODES ALL
+LINKS ALL
+
+[TAGS]
+
+[COORDINATES]
+J_1    310028.835    5998723.18
+J_2    309815.969    5998688.997
+J_3    309696.328    5998413.979
+J_4    309313.323    5998132.746
+
+[VERTICES]
+
