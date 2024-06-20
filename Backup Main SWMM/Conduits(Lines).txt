@@ -1,0 +1,48 @@
+[TITLE]
+;;Project Title/Notes
+test_name
+
+[EVAPORATION]
+CONSTANT         0.0
+DRY_ONLY         NO
+
+[JUNCTIONS]
+
+[STORAGE]
+
+[CONDUITS]
+C_3    J_3    J_2    299.9009999452994    0.011    *    *    0.0    0.0
+C_1    J_1    Out_1    149.59839662674491    0.015    *    *    0.0    0.0
+C_4    J_4    J_5    199.3808096739656    0.015    *    *    0.0    0.0
+C_5    J_5    St_1    198.48049966122002    0.015    *    *    0.0    0.0
+C_6    J_5    J_2    400.0    0.01    3.5    *    0.0    0.0
+
+[XSECTIONS]
+C_3   CIRCULAR    0.2    0.0    0.0    0.0    1.0    
+C_1   CIRCULAR    0.5    0.0    0.0    0.0    1.0    
+C_4   IRREGULAR    tr_1    0.0    0.0    0.0    1.0    
+C_5   CIRCULAR    0.3    0.0    0.0    0.0    1.0    
+C_6   CIRCULAR    1.0    0.0    0.0    0.0    1.0    
+
+[LOSSES]
+C_3   0.0   0.0   0.0   NO   0.0
+C_1   0.0   0.0   0.0   NO   0.0
+C_4   0.0   0.0   0.0   NO   0.0
+C_5   0.0   0.0   0.0   NO   0.0
+C_6   0   0   0   NO   0
+
+[REPORT]
+SUBCATCHMENTS ALL
+NODES ALL
+LINKS ALL
+
+[TAGS]
+
+[COORDINATES]
+
+[VERTICES]
+ C_4  309337.41  5998182.08
+ C_4  309369.26  5998199.17
+ C_4  309389.85  5998220.92
+ C_6  309532.67  5998444.49
+
