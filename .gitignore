@@ -79,6 +79,8 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+/Python Package_Original_OLD.ipynb
+/SDART_Sjoin_Result.xlsx
 
 # IPython
 profile_default/
